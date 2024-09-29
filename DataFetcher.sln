@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFetcher.Api.AzureFunctions", "src\Api.AzureFunctions\DataFetcher.Api.AzureFunctions.csproj", "{DD03409B-EC18-4856-8819-58216E2B1DCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFetcher.Api.AzureFunctions.Test", "test\Api.AzureFunctions.Test\DataFetcher.Api.AzureFunctions.Test.csproj", "{9480DA44-223E-4B4A-9E57-7F7E27D6E298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFetcher.Abstractions", "src\Abstractions\DataFetcher.Abstractions.csproj", "{4B916EC1-7378-4775-857E-309C66E05EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFetcher.Core", "src\Core\DataFetcher.Core.csproj", "{2D2E0B7E-CDC6-4BC0-9387-E8DF751FE193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFetcher.Core.Test", "test\Core.Test\DataFetcher.Core.Test.csproj", "{694F2DEB-79BA-4B11-8EB1-FCC0CE221CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFetcher.Domain", "src\Domain\DataFetcher.Domain.csproj", "{6F453A40-B570-4F53-81BE-A2FD3540EFF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFetcher.DataSources.Http", "src\DataSources.Http\DataFetcher.DataSources.Http.csproj", "{08B8E426-ADE4-4848-8D55-2BA6C508EF95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFetcher.DataSources.Http.Test", "test\DataSources.Http.Test\DataFetcher.DataSources.Http.Test.csproj", "{8E4A4AE3-DA7B-491E-9E31-E0F23A39CCD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFetcher.PayloadStores.Azure.Storage.Blobs", "src\PayloadStores.Azure.Storage.Blobs\DataFetcher.PayloadStores.Azure.Storage.Blobs.csproj", "{FBC84A46-CA92-4BEB-8512-BBE691C1D3C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFetcher.LogStores.Azure.Data.Tables", "src\LogStores.Azure.Data.Tables\DataFetcher.LogStores.Azure.Data.Tables.csproj", "{091308EB-B4EF-4E2F-82D9-FD3354895C8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD03409B-EC18-4856-8819-58216E2B1DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD03409B-EC18-4856-8819-58216E2B1DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD03409B-EC18-4856-8819-58216E2B1DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD03409B-EC18-4856-8819-58216E2B1DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9480DA44-223E-4B4A-9E57-7F7E27D6E298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9480DA44-223E-4B4A-9E57-7F7E27D6E298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9480DA44-223E-4B4A-9E57-7F7E27D6E298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9480DA44-223E-4B4A-9E57-7F7E27D6E298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B916EC1-7378-4775-857E-309C66E05EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B916EC1-7378-4775-857E-309C66E05EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B916EC1-7378-4775-857E-309C66E05EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B916EC1-7378-4775-857E-309C66E05EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2E0B7E-CDC6-4BC0-9387-E8DF751FE193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2E0B7E-CDC6-4BC0-9387-E8DF751FE193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2E0B7E-CDC6-4BC0-9387-E8DF751FE193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2E0B7E-CDC6-4BC0-9387-E8DF751FE193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694F2DEB-79BA-4B11-8EB1-FCC0CE221CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694F2DEB-79BA-4B11-8EB1-FCC0CE221CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694F2DEB-79BA-4B11-8EB1-FCC0CE221CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694F2DEB-79BA-4B11-8EB1-FCC0CE221CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F453A40-B570-4F53-81BE-A2FD3540EFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F453A40-B570-4F53-81BE-A2FD3540EFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F453A40-B570-4F53-81BE-A2FD3540EFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F453A40-B570-4F53-81BE-A2FD3540EFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B8E426-ADE4-4848-8D55-2BA6C508EF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B8E426-ADE4-4848-8D55-2BA6C508EF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B8E426-ADE4-4848-8D55-2BA6C508EF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B8E426-ADE4-4848-8D55-2BA6C508EF95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E4A4AE3-DA7B-491E-9E31-E0F23A39CCD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4A4AE3-DA7B-491E-9E31-E0F23A39CCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4A4AE3-DA7B-491E-9E31-E0F23A39CCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4A4AE3-DA7B-491E-9E31-E0F23A39CCD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC84A46-CA92-4BEB-8512-BBE691C1D3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC84A46-CA92-4BEB-8512-BBE691C1D3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC84A46-CA92-4BEB-8512-BBE691C1D3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC84A46-CA92-4BEB-8512-BBE691C1D3C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091308EB-B4EF-4E2F-82D9-FD3354895C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091308EB-B4EF-4E2F-82D9-FD3354895C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091308EB-B4EF-4E2F-82D9-FD3354895C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091308EB-B4EF-4E2F-82D9-FD3354895C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
